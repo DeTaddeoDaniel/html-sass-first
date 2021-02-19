@@ -1,11 +1,15 @@
 body{
     background-color: peru;
+    margin: 0;
 }
 
 h1{
-    color: purple;
+    color: test;
+    background-color: red;
+    color: green;
 }
 
 :root{
     --var: green;
+    --font-weight:bold;
 }
