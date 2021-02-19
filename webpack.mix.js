@@ -2,7 +2,7 @@
 let mix = require('laravel-mix');
 
 // compila i file seguenti
-mix.sass('scss/app.scss', 'css');
+mix.sass('resource/scss/app.scss', 'resource/dist/css');
 
 // sincronizza la pagina automaticamente ad ogni cambio
 mix.browserSync('myapp.test')
