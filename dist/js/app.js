@@ -12775,7 +12775,7 @@ Vue.compile = compileToFunctions;
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// Promise = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"/resource/dist/js/app": 0
+/******/ 			"/dist/js/app": 0
 /******/ 		};
 /******/ 		
 /******/ 		var deferredModules = [
